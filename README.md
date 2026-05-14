@@ -2,7 +2,7 @@
 
 ![TiltBox](pictures/IMG_2051.jpeg)
 
-A handheld retro game console with tilt controls, featuring 15 games on an 8x8 LED matrix. Designed at [Maakleerplek](https://maakleerplek.be).
+A handheld retro game console with tilt controls, featuring 16 games on an 8x8 LED matrix. Designed at [Maakleerplek](https://maakleerplek.be).
 
 ## Bill of Materials
 
@@ -85,53 +85,61 @@ The LED matrix needs a diffuser layer to blend the individual LEDs into a smooth
 
 Switch between games by flipping the board upside down.
 
-### 1. Maze
+### 1. Kitchen Timer
+Set a countdown timer (1–99 minutes). Tilt left/right to adjust time, tilt forward to start. Shows remaining time on the display with a progress bar. Flashes red/yellow when time's up — tilt to dismiss.
+
+### 2. Maze
 Navigate a ball through a randomly generated maze. Tilt to move the yellow ball to the red goal. A rainbow animation plays when you win.
 
-### 2. Ball Trail
-A simple ball that leaves a fading trail as it moves. Tilt to control direction.
-
-### 3. Glow Ball
-A glowing ball with a smooth gradient effect that follows your tilt movements.
-
-### 4. Snake
+### 3. Snake
 Classic snake game. Tilt to change direction and eat the red food to grow. Don't hit yourself!
 
-### 5. Breakout
+### 4. Breakout
 Break the colored bricks at the top with a bouncing ball. Tilt left/right to move the paddle.
 
-### 6. Dodge
+### 5. Dodge
 Avoid falling obstacles. Tilt left/right to move your player at the bottom. Score increases as obstacles pass.
 
-### 7. Scroll Text
+### 6. Catch
+Catch falling green items for points while avoiding red ones. Tilt left/right to move your basket. 3 lives — lose one for each red item caught.
+
+### 7. Tetris
+Classic falling block game. Tilt left/right to move pieces, tilt forward to rotate, tilt backward for fast drop.
+
+### 8. Pong
+1-player Pong against an AI opponent. Tilt left/right to move your paddle. Score increases with each volley. 3 misses and the game resets.
+
+### 9. Balance
+Keep a ball centered against random wind forces. The target zone shrinks over time, making it harder to stay alive. Pure tilt precision challenge.
+
+### 10. Target Practice
+Tilt a cursor to hit randomly appearing targets as fast as possible. 30-second timer. Tests raw tilt accuracy and speed.
+
+### 11. Sokoban
+Push-block puzzle game. Tilt to move your character and push blocks onto target positions. 8 levels of increasing difficulty.
+
+### 12. Marble Race
+Steer a marble along a scrolling track. Tilt left/right to stay on the path as speed increases. 3 lives — go off-track and you lose one.
+
+### 13. Ball Trail
+A simple ball that leaves a fading trail as it moves. Tilt to control direction.
+
+### 14. Glow Ball
+A glowing ball with a smooth gradient effect that follows your tilt movements.
+
+### 15. Scroll Text
 Displays scrolling text: "github.com/Tom-Michiels/TiltBox"
 
-### 8. Animation
+### 16. Animation
 Cycles through animated patterns:
 - Spiral rainbow
 - Wave
 - Rainbow gradient
-
-### 9. Tetris
-Classic falling block game. Tilt left/right to move pieces, tilt forward to rotate, tilt backward for fast drop.
-
-### 10. Pong
-1-player Pong against an AI opponent. Tilt left/right to move your paddle. Score increases with each volley. 3 misses and the game resets.
-
-### 11. Balance
-Keep a ball centered against random wind forces. The target zone shrinks over time, making it harder to stay alive. Pure tilt precision challenge.
-
-### 12. Catch
-Catch falling green items for points while avoiding red ones. Tilt left/right to move your basket. 3 lives — lose one for each red item caught.
-
-### 13. Target Practice
-Tilt a cursor to hit randomly appearing targets as fast as possible. 30-second timer. Tests raw tilt accuracy and speed.
-
-### 14. Sokoban
-Push-block puzzle game. Tilt to move your character and push blocks onto target positions. 8 levels of increasing difficulty.
-
-### 15. Marble Race
-Steer a marble along a scrolling track. Tilt left/right to stay on the path as speed increases. 3 lives — go off-track and you lose one.
+- Fire effect
+- Matrix rain
+- Plasma
+- Game of Life
+- Fireworks
 
 ## Building and Flashing
 
