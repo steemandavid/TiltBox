@@ -22,7 +22,6 @@
 
 // Game types
 typedef enum {
-    GAME_TIMER,
     GAME_MAZE,
     GAME_SNAKE,
     GAME_BREAKOUT,

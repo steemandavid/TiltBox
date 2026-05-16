@@ -32,7 +32,7 @@ TiltBox is an ESP32-C3 project driving an 8x8 WS2812 LED matrix with an ADXL345 
 - `main/game_common.h` — Shared types (game_t enum, game_interface_t, position_t), color macros
 - `main/game_*.c` — One file per game, each implementing init/update/draw
 
-**Game system:** Uses a dispatch table pattern (`game_interface_t`) where each game implements `init()`, `update(dx, dy, z)`, and `draw()` functions. Games are switched by flipping the board (z-axis detection). 16 games in order: Kitchen Timer, Maze, Snake, Breakout, Dodge, Catch, Tetris, Pong, Balance, Target Practice, Sokoban, Marble Race, Ball Trail, Glow Ball, Scroll Text, Animation. The Animation game cycles through 8 patterns: Spiral, Wave, Rainbow, Fire, Matrix Rain, Plasma, Game of Life, Fireworks.
+**Game system:** Uses a dispatch table pattern (`game_interface_t`) where each game implements `init()`, `update(dx, dy, z)`, and `draw()` functions. Games are switched by flipping the board (z-axis detection). 15 games in order: Maze, Snake, Breakout, Dodge, Catch, Tetris, Pong, Balance, Target Practice, Sokoban, Marble Race, Ball Trail, Glow Ball, Scroll Text, Animation. The Animation game cycles through 8 patterns: Spiral, Wave, Rainbow, Fire, Matrix Rain, Plasma, Game of Life, Fireworks.
 
 **Display:** 8x8 matrix using GRB color format. Pixels are addressed via `set_pixel_at(row, col, g, r, b)`. The `ws2812_send()` function transmits the frame buffer.
 
