@@ -1,1 +1,5 @@
 .claude/settings.local.json
+# CMake/ESP-IDF build output
+build/
+# separate checkout used for PR work, not part of this tree
+tiltbox-pr/
